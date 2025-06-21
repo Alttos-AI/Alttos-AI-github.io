@@ -1,0 +1,35 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "name": "Alttos | Automatización con IA para tu negocio",
+  "short_name": "Alttos",
+  "description": "Implementamos agentes de IA 24/7 para automatizar procesos, responder consultas, atender llamadas y agendar citas, optimizando tus recursos y mejorando la experiencia del cliente.",
+  "theme_color": "#18181B",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

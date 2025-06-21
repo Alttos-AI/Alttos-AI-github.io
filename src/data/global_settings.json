@@ -1,0 +1,26 @@
+{
+  "title": "Alttos AI",
+  "description": "Empoderamos empresas usando tecnología de punta para que alcancén su máximo potencial.",
+  "social_image": "/preview_link_image.png",
+  "base_url": "https://alttos.ai",
+  "demo": {
+    "title": "Habla con nuestros expertos",
+    "content": "<strong>Get a guided tour through our services</strong>, and find out how you and your team can change the way you work, forever.",
+    "cta": "Agenda una llamada"
+  },
+  "theme_color": "#18181b",
+  "nav": [
+    {
+      "title": "Demos",
+      "link": "/#services"
+    },
+    {
+      "title": "Servicios",
+      "link": "/#services"
+    },
+    {
+      "title": "Contáctanos",
+      "link": "/#contact"
+    }
+  ]
+}

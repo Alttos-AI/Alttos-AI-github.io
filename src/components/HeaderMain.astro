@@ -1,0 +1,46 @@
+---
+import Logo from '../assets/theme-images/logo3.png';
+
+const { settings } = Astro.props;
+---
+
+<header class='wrapper bg-loop font-semibold'>
+  <!-- Wrapper -->
+  <div class='bs-container py-6 flex justify-between items-center'>
+    <!-- Logo -->
+    <a
+      href='/'
+      aria-label={settings.title + ' - Home'}
+      class='flex items-center gap-2'
+    >
+      <img
+        src={Logo.src}
+        loading='lazy'
+        class='group-hover:-rotate-180 group-hover:scale-80 transition-transform ease-bs-spring duration-1000 rounded-full cursor-pointer'
+        height='48'
+        width='48'
+      />
+      <span class='text-white text-2xl font-bold'
+        >ALTTOS <span
+          class='bg-gradient-to-r from-blue-500 via-cyan-400 to-green-400 bg-clip-text text-transparent'
+          >AI</span
+        ></span
+      >
+    </a>
+
+    <!-- Nav -->
+    <nav class='hidden col-span-6 md:flex mx-auto self-stretch lg:gap-2'>
+      <!-- Links -->
+      {
+        settings.nav.map((item) => (
+          <a
+            class='bs-btn !bg-transparent before:translate-y-full hover:before:translate-y-0'
+            href={item.link}
+          >
+            {item.title}
+          </a>
+        ))
+      }
+    </nav>
+  </div>
+</header>
